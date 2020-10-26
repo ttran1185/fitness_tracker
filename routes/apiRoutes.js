@@ -1,4 +1,4 @@
-const router = express.router();
+const router = require("express").Router();
 const express = require("express");
 const workout = require("../models/workout.js");
 

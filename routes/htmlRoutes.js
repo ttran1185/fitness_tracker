@@ -1,4 +1,5 @@
 const path = require("path");
+const router = require("express").Router();
 
 module.exports = function(router) {
     router.get("/", (req, res) => {
